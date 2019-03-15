@@ -1,0 +1,23 @@
+- Advantages
+  - Elastic Scalability - easy add or remove nodes
+  - Peer to peer instead of master slave => No single point of failure & Write to any node
+  - Fault tolerance to failure of individual nodes
+  - Great analytics capabilities (e.g. with Hadoop, Spark, ...) [because of column orientation?]
+  - Flexible data model (no strict schemas)
+  - Fast INSERT because of caching and commit logs
+- Disadvantages
+  - CQL is SQL but stripped down
+  - Doesn't do data validation like NULL-constraint, uniqueness violations, ...
+  - Needs repairs sometimes
+  - No transactions
+  - Updates and deletes are slow (tombstones)
+- Keep in mind:
+  - Denormalize data => Super fast reads (no joins) but more data duplication
+  - CAP: Cassandra is an available, partition-tolerant system that supports eventual consistency
+
+Terminology
+
+| Cassandra          | RDBMS Equivalent |
+| ------------------ | ---------------- |
+| Keyspace           | Database         |
+| Table/ColumnFamily | Table            |
