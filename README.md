@@ -1,19 +1,19 @@
 # Project Plan Cassandra
 
 ## Deadlines
-Presentation 10.April
-E-Book 16.April
+- Presentation 10.April
+- E-Book 16.April
 
 ## Plan
 1. Sich über Cassandra informieren
-    a. Wie speichert es die Daten?
-    b. Wie fragt man die Daten ab?
-    c. Besonderheiten?
-    d. Wie kann man es einsetzen? Nutzen?
+    1. Wie speichert es die Daten?
+    2. Wie fragt man die Daten ab?
+    3. Besonderheiten?
+    4. Wie kann man es einsetzen? Nutzen?
 2. Cassandra ausprobieren
-    a. Aufsetzen mit Ansible / NixOS / NixOps
-    b. Pitfalls beim Installieren
-    c. Netzwerkaufbau? Ist da was zu beachten?
+    1. Aufsetzen mit Ansible / NixOS / NixOps
+    2. Pitfalls beim Installieren
+    3. Netzwerkaufbau? Ist da was zu beachten?
 3. Aufschreiben in der Struktur wie oben
 
 ## Special topics
